@@ -1,0 +1,44 @@
+ * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: japanola;
+  src: url(../resorces/typo/Japanola.otf); }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15%;
+  width: 101%;
+  background-color: black; }
+
+  .nav .div-logo {
+    justify-content: center; }
+    .nav .div-logo .logo {
+      font-family: japanola;
+      color: red;
+      font-size: 4.3em; }
+
+  .nav .lista-nav {
+    display: flex; }
+
+    .nav .lista-nav .nav-item {
+      color: white;
+      transition: .5s;
+      text-align: center;
+      width: 500px;
+    }
+      
+    .nav .lista-nav .nav-item:hover {
+      color: red; }
+
+@media (max-width: 767px) {
+  .logo {
+    text-align: left; }
+  .nav-item {
+    text-align: left; } }
